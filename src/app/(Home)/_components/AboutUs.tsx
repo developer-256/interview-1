@@ -17,7 +17,7 @@ const AboutUs = () => {
 
       <section className="pt-10">
         <MaxContainer className="">
-          <div className="pl-[25vw]">
+          <div className="pl-[30vw]">
             <h2 className="text-5xl font-semibold">
               <span className="text-2xl font-normal text-[#FFA500]">
                 A little Bit
@@ -46,6 +46,80 @@ const AboutUs = () => {
             </button>
           </div>
         </MaxContainer>
+
+        <div className="h-[500px]" />
+
+        <div className="absolute -bottom-[500px] -z-30 mx-auto h-[900px] w-full px-10 py-2">
+          <div className="relative h-full w-full rounded-[50%] border shadow-[0px_-8px_30px_1px_#1521FF1C]">
+            <div className="absolute bottom-[470px] left-0 w-[500px]">
+              <Image
+                src={ImageAssets.Home.AboutUsPerson}
+                alt="About Us Person"
+                className="h-full w-full object-contain object-center"
+              />
+            </div>
+
+            <div className="absolute top-16 right-[35%] flex items-center gap-20">
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  120
+                </p>
+                <p className="text-primary text-center font-medium">
+                  Web Designs
+                </p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  156
+                </p>
+                <p className="text-primary text-center font-medium">
+                  Web Development
+                </p>
+              </div>
+            </div>
+
+            <div className="absolute top-44 right-[20%] flex items-center gap-20">
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  69
+                </p>
+                <p className="text-primary text-center font-medium">
+                  App Development
+                </p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  156
+                </p>
+                <p className="text-primary text-center font-medium">
+                  Digital Marketing
+                </p>
+              </div>
+            </div>
+
+            <div className="absolute top-72 right-[7%] flex items-center gap-20">
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  156
+                </p>
+                <p className="text-primary text-center font-medium">
+                  SEO Marketing
+                </p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <p className="text-center text-3xl font-bold text-[#FFA500]">
+                  169
+                </p>
+                <p className="text-primary text-center font-medium">
+                  Content Marketing
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

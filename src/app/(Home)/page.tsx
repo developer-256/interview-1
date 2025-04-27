@@ -7,8 +7,6 @@ const page = () => {
     <section>
       <Hero className="mt-5" />
       <AboutUs />
-
-      <footer className="h-40 bg-red-50">Fototer</footer>
     </section>
   );
 };

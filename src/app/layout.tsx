@@ -1,8 +1,9 @@
+import Footer from "@/components/footer/Footer";
 import ResponsiveTester from "@/lib/ResponsiveTester";
 import "@/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Geist, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -18,20 +19,16 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-});
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${poppins.variable} ${poppins.className}`}>
       <body>
-        <div className="relative h-full font-sans antialiased">
+        <div className="font-poppins relative h-full antialiased">
           <main className="relative flex min-h-screen flex-col">
             <div className="flex-1 flex-grow">{children}</div>
+            <Footer />
           </main>
         </div>
         <ResponsiveTester />
