@@ -1,11 +1,12 @@
 export const ImageAssets = {
-	// Icons: { Search },
+  Base: { Logo },
 
-	// Base: { Logo, User, UserString, Placeholder, PlaceholderString },
-
-	Home: {
-		Hero,
-	},
+  Home: {
+    Hero,
+    AboutUsGrid,
+  },
 };
 
 import Hero from "@/assets/images/home/Hero.png";
+import Logo from "@/assets/images/Logo.png";
+import AboutUsGrid from "@/assets/images/home/AboutUsGrid.png";

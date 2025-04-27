@@ -1,7 +1,16 @@
+import ResponsiveTester from "@/lib/ResponsiveTester";
 import "@/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+  // preload: true,
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -18,8 +27,15 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${geist.variable} ${poppins.variable}`}>
+      <body>
+        <div className="relative h-full font-sans antialiased">
+          <main className="relative flex min-h-screen flex-col">
+            <div className="flex-1 flex-grow">{children}</div>
+          </main>
+        </div>
+        <ResponsiveTester />
+      </body>
     </html>
   );
 }
