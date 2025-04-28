@@ -1,5 +1,5 @@
 import Footer from "@/components/footer/Footer";
-import ResponsiveTester from "@/lib/ResponsiveTester";
+// import ResponsiveTester from "@/lib/ResponsiveTester";
 import "@/styles/globals.css";
 
 import { type Metadata } from "next";
@@ -31,7 +31,7 @@ export default function RootLayout({
             <Footer />
           </main>
         </div>
-        <ResponsiveTester />
+        {/* <ResponsiveTester /> */}
       </body>
     </html>
   );
