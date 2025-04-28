@@ -22,6 +22,8 @@ export const ImageAssets = {
     S23,
     S24,
     S31,
+
+    Insight,
   },
 
   // prettier-ignore
@@ -68,4 +70,5 @@ import S22 from "@/assets/images/home/Services/Custom2Service.png";
 import S23 from "@/assets/images/home/Services/Custom3Service.png";
 import S24 from "@/assets/images/home/Services/Content4Service.png";
 import S31 from "@/assets/images/home/Services/ProductService.png";
+import Insight from "@/assets/images/home/Insight.png";
 import { Facebook, LinkedIn, Twitter } from "./Icons/Icon";
