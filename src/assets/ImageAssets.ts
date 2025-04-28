@@ -30,6 +30,11 @@ export const ImageAssets = {
     CS3,
   },
 
+  Video: {
+    SampleVod:
+      "https://jcosu3vnwz.ufs.sh/f/JM2Cb5Uu9AQaCVOREaplO0hUL4ysob7KSMEpJDaTfWFIwBG5",
+  },
+
   // prettier-ignore
   Customers: [ C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18],
 
