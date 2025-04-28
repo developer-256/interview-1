@@ -6,11 +6,22 @@ export const ImageAssets = {
     AboutUsGrid,
     AboutUsPerson,
     ValuedCustomerGrid,
+
     CC1,
     CC2,
     CC3,
     CC4,
     CC5,
+
+    S11,
+    S12,
+    S13,
+    S14,
+    S21,
+    S22,
+    S23,
+    S24,
+    S31,
   },
 
   // prettier-ignore
@@ -48,4 +59,13 @@ import CC2 from "@/assets/images/home/creation/card2.png";
 import CC3 from "@/assets/images/home/creation/card3.png";
 import CC4 from "@/assets/images/home/creation/card4.png";
 import CC5 from "@/assets/images/home/creation/card5.png";
+import S11 from "@/assets/images/home/Services/SEOService.jpg";
+import S12 from "@/assets/images/home/Services/SocialService.jpg";
+import S13 from "@/assets/images/home/Services/ContentService.png";
+import S14 from "@/assets/images/home/Services/PPCService.jpg";
+import S21 from "@/assets/images/home/Services/CustomService.png";
+import S22 from "@/assets/images/home/Services/Custom2Service.png";
+import S23 from "@/assets/images/home/Services/Custom3Service.png";
+import S24 from "@/assets/images/home/Services/Content4Service.png";
+import S31 from "@/assets/images/home/Services/ProductService.png";
 import { Facebook, LinkedIn, Twitter } from "./Icons/Icon";

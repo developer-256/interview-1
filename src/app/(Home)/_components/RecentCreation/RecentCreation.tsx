@@ -1,10 +1,20 @@
 import MaxContainer from "@/components/MaxContainer";
 import React from "react";
 import CreationCards from "./CreationComponent";
+import Image from "next/image";
+import { ImageAssets } from "@/assets/ImageAssets";
 
 const RecentCreation = () => {
   return (
-    <MaxContainer className="bg-white py-14">
+    <MaxContainer className="relative py-14">
+      <div className="absolute top-0 right-0 left-0 -z-10 mx-auto h-[350px] w-full px-10">
+        <Image
+          src={ImageAssets.Home.AboutUsGrid}
+          className="h-full w-full object-cover object-center"
+          alt="About Us Grid"
+        />
+      </div>
+
       <div className="max-w-[60%]">
         <h2 className="text-5xl font-semibold">
           <span className="text-2xl font-normal text-[#FFA500]">
