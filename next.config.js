@@ -5,18 +5,6 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {
-  images: {
-    remotePatterns: [
-      { hostname: "developer-256.github.io", protocol: "https" },
-      {
-        protocol: "https",
-        hostname: "jcosu3vnwz.ufs.sh",
-        // port: "",
-        // pathname: "/f/",
-      },
-    ],
-  },
-};
+const config = {};
 
 export default config;

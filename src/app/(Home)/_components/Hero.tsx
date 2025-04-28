@@ -28,16 +28,13 @@ const Hero = ({ className }: { className?: string }) => {
 
         <DialogContent className="h-[450px] min-w-[700px] overflow-hidden p-0">
           <div className="h-full w-full">
-            <video
+            <iframe
+              src={
+                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              }
+              allowFullScreen
               className="h-full w-full object-cover object-center"
-              loop
-              // muted
-              autoPlay
-              controls
-            >
-              <source src={ImageAssets.Video.SampleVod} type="video/mp4" />
-              Your Browser Does not support video output
-            </video>
+            />
           </div>
         </DialogContent>
 
