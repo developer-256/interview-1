@@ -13,7 +13,7 @@ const CreationCards = () => {
     <MaxContainer>
       {cards && <CreationCarousel className="mt-16" cards={cards} />}
 
-      <div className="text-foreground/50 mt-32 flex items-start justify-center gap-8 text-sm">
+      <div className="text-foreground/50 mt-24 flex items-start justify-center gap-8 text-sm">
         {creationData.map((item, idx) => {
           return (
             <div
@@ -43,15 +43,15 @@ export default CreationCards;
 const creationData = [
   {
     tab: "Custom Software Dev",
-    cards: [{ image: ImageAssets.Home.CC1, title: "Custom Software", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC2, title: "Custom Software", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC3, title: "Custom Software", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC4, title: "Custom Software", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC5, title: "Custom Software", subTitle: "Dubai Neked" }],
+    cards: [{ image: ImageAssets.Home.CC3, title: "Custom Software", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC4, title: "Custom Software", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC5, title: "Custom Software", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC1, title: "Custom Software", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC2, title: "Custom Software", subTitle: "Dubai Neked" }],
   },
   {
     tab: "Social Media",
-    cards: [{ image: ImageAssets.Home.CC1, title: "Social Media", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC2, title: "Social Media", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC3, title: "Social Media", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC4, title: "Social Media", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC5, title: "Social Media", subTitle: "Dubai Neked" }]
+    cards: [{ image: ImageAssets.Home.CC4, title: "Social Media", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC5, title: "Social Media", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC1, title: "Social Media", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC2, title: "Social Media", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC3, title: "Social Media", subTitle: "Dubai Neked" }]
   },
   {
     tab: "3D Walkthrough",
-    cards: [{ image: ImageAssets.Home.CC1, title: "3D Walkthrough", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC2, title: "3D Walkthrough", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC3, title: "3D Walkthrough", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC4, title: "3D Walkthrough", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC5, title: "3D Walkthrough", subTitle: "Dubai Neked" }]
+    cards: [{ image: ImageAssets.Home.CC5, title: "3D Walkthrough", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC1, title: "3D Walkthrough", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC2, title: "3D Walkthrough", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC3, title: "3D Walkthrough", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC4, title: "3D Walkthrough", subTitle: "Dubai Neked" }]
   },
   {
     tab: "UI/UX Design",
@@ -59,6 +59,6 @@ const creationData = [
   },
   {
     tab: "Graphics Design",
-    cards: [{ image: ImageAssets.Home.CC1, title: "Graphics Design", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC2, title: "Graphics Design", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC3, title: "Graphics Design", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC4, title: "Graphics Design", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC5, title: "Graphics Design", subTitle: "Dubai Neked" }]
+    cards: [{ image: ImageAssets.Home.CC2, title: "Graphics Design", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC3, title: "Graphics Design", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC4, title: "Graphics Design", subTitle: "Dubai Neked" }, { image: ImageAssets.Home.CC5, title: "Graphics Design", subTitle: "Coach Lenka" }, { image: ImageAssets.Home.CC1, title: "Graphics Design", subTitle: "Dubai Neked" }]
   },
 ];

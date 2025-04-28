@@ -4,7 +4,7 @@ import CreationCards from "./CreationComponent";
 
 const RecentCreation = () => {
   return (
-    <MaxContainer className="bg-white py-12">
+    <MaxContainer className="bg-white py-14">
       <div className="max-w-[60%]">
         <h2 className="text-5xl font-semibold">
           <span className="text-2xl font-normal text-[#FFA500]">
