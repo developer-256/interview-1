@@ -30,7 +30,7 @@ const Hero = ({ className }: { className?: string }) => {
           <div className="h-full w-full">
             <iframe
               src={
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
               }
               allowFullScreen
               className="h-full w-full object-cover object-center"
