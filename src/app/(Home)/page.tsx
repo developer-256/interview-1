@@ -5,6 +5,7 @@ import Customers from "./_components/Customers";
 import RecentCreation from "./_components/RecentCreation/RecentCreation";
 import Services from "./_components/Services/Services";
 import Insights from "./_components/Insights";
+import CaseStudied from "./_components/CaseStudied/CaseStudied";
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
       <Customers />
       <RecentCreation />
       <Insights />
-      <div className="h-10 bg-white"></div>
+      <CaseStudied />
     </section>
   );
 };
