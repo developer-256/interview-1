@@ -5,6 +5,12 @@ export const ImageAssets = {
     Hero,
     AboutUsGrid,
     AboutUsPerson,
+    ValuedCustomerGrid,
+    CC1,
+    CC2,
+    CC3,
+    CC4,
+    CC5,
   },
 
   // prettier-ignore
@@ -17,6 +23,7 @@ export const ImageAssets = {
 import Hero from "@/assets/images/home/Hero.png";
 import Logo from "@/assets/images/Logo.png";
 import AboutUsGrid from "@/assets/images/home/AboutUsGrid.png";
+import ValuedCustomerGrid from "@/assets/images/home/ValuedCustomerGrid.png";
 import AboutUsPerson from "@/assets/images/home/AboutUsPerson.png";
 import C1 from "@/assets/images/customers/c1.png";
 import C2 from "@/assets/images/customers/c2.png";
@@ -36,4 +43,9 @@ import C15 from "@/assets/images/customers/c15.png";
 import C16 from "@/assets/images/customers/c16.png";
 import C17 from "@/assets/images/customers/c17.png";
 import C18 from "@/assets/images/customers/c18.png";
+import CC1 from "@/assets/images/home/creation/card1.png";
+import CC2 from "@/assets/images/home/creation/card2.png";
+import CC3 from "@/assets/images/home/creation/card3.png";
+import CC4 from "@/assets/images/home/creation/card4.png";
+import CC5 from "@/assets/images/home/creation/card5.png";
 import { Facebook, LinkedIn, Twitter } from "./Icons/Icon";

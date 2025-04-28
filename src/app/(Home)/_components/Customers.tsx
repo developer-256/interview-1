@@ -6,7 +6,15 @@ import Image from "next/image";
 
 const Customers = () => {
   return (
-    <div className="bg-base-blue py-12 text-white">
+    <div className="bg-base-blue relative py-12 text-white">
+      <div className="absolute top-0 right-0 left-0 mx-auto h-[350px] w-full px-10">
+        <Image
+          src={ImageAssets.Home.ValuedCustomerGrid}
+          className="h-full w-full object-cover object-center"
+          alt="About Us Grid"
+        />
+      </div>
+
       <MaxContainer>
         <h3>Our Most</h3>
         <p className="text-5xl font-semibold">

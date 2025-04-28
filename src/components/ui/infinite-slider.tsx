@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 "use client";
 import { cn } from "@/lib/utils";
 import { useMotionValue, animate, motion } from "motion/react";
@@ -24,6 +25,7 @@ export function InfiniteSlider({
   className,
 }: InfiniteSliderProps) {
   const [currentSpeed, setCurrentSpeed] = useState(speed);
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-call
   const [ref, { width, height }] = useMeasure();
   const translation = useMotionValue(0);
   const [isTransitioning, setIsTransitioning] = useState(false);

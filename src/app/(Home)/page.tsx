@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./_components/Hero";
 import AboutUs from "./_components/AboutUs";
 import Customers from "./_components/Customers";
+import RecentCreation from "./_components/RecentCreation/RecentCreation";
 
 const page = () => {
   return (
@@ -9,7 +10,8 @@ const page = () => {
       <Hero className="mt-5" />
       <AboutUs />
       <Customers />
-      <div className="h-10 bg-white"></div>
+      <RecentCreation />
+      {/* <div className="h-10 bg-white"></div> */}
     </section>
   );
 };
